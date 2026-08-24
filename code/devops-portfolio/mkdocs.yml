@@ -1,0 +1,40 @@
+site_name: Oluwatobi Olatidoye | DevOps portfolio
+site_description: DevOps Engineering, CI/CD, Containers & Cloud
+site_author: Oluwatobi Olatidoye
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: deep purple
+    - scheme: slate
+      primary: indigo
+      accent: deep purple
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+
+nav:
+  - Home: index.md
+  - About Me: about.md
+  - Projects:
+      - Reeto (AI Platform): reeto.md
+      - Titsly (URL Shortener): projects.md
+  - CI/CD Pipelines: cicd.md
+  - Troubleshooting: troubleshooting.md
+  - Skills: skills.md
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.details
+  - pymdownx.emoji
+plugins:
+  - search

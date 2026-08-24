@@ -1,0 +1,12 @@
+# MkDocs build output
+site/
+
+# Python virtual environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# OS / editor junk
+*Zone.Identifier
+.DS_Store
